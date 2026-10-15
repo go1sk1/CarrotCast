@@ -1,4 +1,4 @@
-# Goodman Car GSI
+# CarrotCast GSI
 
 LineageOS 23.2 ARM64 GAPPS EXT4 development GSI for vehicle mirroring.
 
