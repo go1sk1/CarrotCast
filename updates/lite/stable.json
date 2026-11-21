@@ -1,0 +1,8 @@
+{
+  "schema": 1,
+  "product": "CarrotCast-Lite",
+  "package": "dev.carrotcast.stockusb",
+  "available": false,
+  "channel": "stable",
+  "message": "CarrotCast Lite update channel. No APK has been published to this channel yet."
+}
