@@ -2,7 +2,14 @@
   "schema": 1,
   "product": "CarrotCast-Lite",
   "package": "dev.carrotcast.stockusb",
-  "available": false,
+  "available": true,
   "channel": "stable",
-  "message": "CarrotCast Lite update channel. No APK has been published to this channel yet."
+  "release": {
+    "versionCode": 19,
+    "versionName": "0.19",
+    "url": "https://github.com/go1sk1/CarrotCast/releases/download/lite-v0.19/CarrotCast-Lite-0.19.apk",
+    "bytes": 2303595,
+    "sha256": "5305a0f71f958567b8b547c4bc067a4c04e30b19ffa450daa80d20f2a5fe7c78",
+    "notes": "GitHub Lite APK 배포 및 앱 내 업데이트 연결. 미러링 중 화면 유지와 기존 설정·인증서 유지."
+  }
 }
