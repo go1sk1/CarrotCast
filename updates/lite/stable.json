@@ -5,11 +5,11 @@
   "available": true,
   "channel": "stable",
   "release": {
-    "versionCode": 20,
-    "versionName": "0.20",
-    "url": "https://github.com/go1sk1/CarrotCast/releases/download/lite-v0.20/CarrotCast-Lite-0.20.apk",
-    "bytes": 2307691,
-    "sha256": "4bc0e318cadc692da140c9c013535379e5d4691b8c8223207bc125a5d296bfe5",
-    "notes": "무선 오디오 지연 누적 수정, 실제 캡처 시각 전송, 폰 미디어 자동 음소거 및 종료 후 볼륨 복원. 유선 볼륨 유지. Android 시험 통과; S25+·ccNC 실기기 싱크 재확인 필요. 이전 0.19에서 Play Protect 설치 차단 관찰, 이번 버전 해소 여부 미확인."
+    "versionCode": 21,
+    "versionName": "0.21",
+    "url": "https://github.com/go1sk1/CarrotCast/releases/download/lite-v0.21/CarrotCast-Lite-0.21.apk",
+    "bytes": 2360939,
+    "sha256": "3eace0080e7a9adc359e8f546e0f87ca82001b4b0cbc182a734480bc7982e1c8",
+    "notes": "사운드 설정 추가: 앱별 차량 볼륨, ADB 보조서비스를 이용한 차량·폰·양쪽·음소거 출력 선택. 설정은 다음 연결부터 적용. 고급 모드는 PC에서 보조서비스 시작 필요. S25+·Android 17·ccNC·카카오 T 픽커 실기기 검증 필요. 이전 Play Protect 차단 해소 여부 미확인."
   }
 }
