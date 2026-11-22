@@ -5,11 +5,11 @@
   "available": true,
   "channel": "stable",
   "release": {
-    "versionCode": 22,
-    "versionName": "0.22",
-    "url": "https://github.com/go1sk1/CarrotCast/releases/download/lite-v0.22/CarrotCast-Lite-0.22.apk",
-    "bytes": 2360939,
-    "sha256": "9d8dbb3907d665c76cdeddea9b71d0de9c208a71b386e47590a2916ad9c174fd",
-    "notes": "메인 화면에 앱 업데이트 버튼 추가. 누르면 GitHub Lite 최신 버전 확인 및 APK 다운로드·설치가 가능합니다. 기존 연결 시험 옵션 안의 업데이트 메뉴도 유지합니다. 0.21 사운드 설정과 차량 연결 기능은 유지합니다."
+    "versionCode": 23,
+    "versionName": "0.23",
+    "url": "https://github.com/go1sk1/CarrotCast/releases/download/lite-v0.23/CarrotCast-Lite-0.23.apk",
+    "bytes": 2369131,
+    "sha256": "ed7e6cf18a704c4566afae56558de8e0016eaaf78e343fa4f673e5bcf5df667c",
+    "notes": "버전별 활성 설치 통계 추가. 첫 실행 후 무작위 설치 ID·앱 버전·보고 시각을 비공개 관리화면에 하루 약 1회 보고합니다. 업데이트 시 ID 유지, 삭제·초기화 시 새 ID 생성. ROM 및 시험 통계 분리. 메인 앱 업데이트 버튼과 0.21 사운드 설정 유지."
   }
 }
