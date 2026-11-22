@@ -2,9 +2,11 @@
 
 CarrotCast Lite is the stock-phone application, separate from the CarrotCast ROM release channel.
 
-Current release: [CarrotCast Lite 0.19](https://github.com/go1sk1/CarrotCast/releases/tag/lite-v0.19) · [Download APK](https://github.com/go1sk1/CarrotCast/releases/download/lite-v0.19/CarrotCast-Lite-0.19.apk)
+Current release: [CarrotCast Lite 0.20](https://github.com/go1sk1/CarrotCast/releases/tag/lite-v0.20) · [Download APK](https://github.com/go1sk1/CarrotCast/releases/download/lite-v0.20/CarrotCast-Lite-0.20.apk)
 
-In Lite 0.18 or later, open **USB·무선 연결 시험 옵션 → CarrotCast Lite 앱 업데이트 → 업데이트 확인 → 다운로드·설치**. Stop mirroring before updating. Allow installation from this app when Android asks, then confirm the update in Android's installer. The APK uses the same package and signing key. In the dedicated emulator, update discovery, download, signature/hash verification and the installer prompt succeeded, but Google Play Protect then blocked installation as potentially harmful. Installation completion and post-upgrade settings retention are not verified; behavior on the S25+ remains unverified.
+In Lite 0.18 or later, open **USB·무선 연결 시험 옵션 → CarrotCast Lite 앱 업데이트 → 업데이트 확인 → 다운로드·설치**. Stop mirroring before updating. Allow installation from this app when Android asks, then confirm the update in Android's installer. The APK uses the same package and signing key. During the earlier 0.18 → 0.19 emulator test, update discovery, download, signature/hash verification and the installer prompt succeeded, but Google Play Protect then blocked installation as potentially harmful. Installation completion and post-upgrade settings retention are not verified; behavior on the S25+ remains unverified. The 0.20 update does not establish that this installation block has been resolved.
+
+Version 0.20 continuously captures timestamped PCM independently of delayed receiver ACKs, bounds stale audio, and automatically silences phone media during wireless mirroring with volume restoration at session end. Wired phone volume is unchanged. These behaviors passed Android instrumentation tests; final S25+/ccNC synchronization and local silence still need device confirmation.
 
 - Android package: `dev.carrotcast.stockusb` (continues existing stock-phone trial installations).
 - Channel: [`stable.json`](stable.json).
