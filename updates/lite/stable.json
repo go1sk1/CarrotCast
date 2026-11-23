@@ -5,11 +5,11 @@
   "available": true,
   "channel": "stable",
   "release": {
-    "versionCode": 28,
-    "versionName": "0.28",
-    "url": "https://github.com/go1sk1/CarrotCast/releases/download/lite-v0.28/CarrotCast-Lite-0.28.apk",
-    "bytes": 9865294,
-    "sha256": "0aff1f7615b649ea1d2102f5031e46bf0f3305efbd602fa5d7dad4420730c1de",
-    "notes": "기존 CarrotCast 런처 디자인을 적용했습니다. 마지막으로 연 티맵 또는 네이버지도를 차량 TBT에 자동 연동합니다."
+    "versionCode": 29,
+    "versionName": "0.29",
+    "url": "https://github.com/go1sk1/CarrotCast/releases/download/lite-v0.29/CarrotCast-Lite-0.29.apk",
+    "bytes": 9877582,
+    "sha256": "e715ef302a674841f3c093f8e078a7bed706138ec57cccea376ee1c632aa8358",
+    "notes": "차량 홈에 시계·홈·뒤로가기·최근 앱 내비바와 앱 분할 바로가기를 추가했습니다. 미러링 기본값은 화면 전체 맞춤입니다."
   }
 }
