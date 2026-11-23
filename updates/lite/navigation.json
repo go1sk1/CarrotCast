@@ -1,18 +1,18 @@
 {
   "schema": 1,
-  "tag": "lite-v0.43",
+  "tag": "external-navigation",
   "tmap": {
     "package": "com.skt.tmap.ku",
     "version_code": 4004,
     "version_name": "11.8.4.4075",
-    "bytes": 91116614,
-    "sha256": "b487ebd0e9984af2d7a09938e2939cb79b524e5b38964fceea9e7bf4ef90b2bc"
+    "bytes": 87476020,
+    "sha256": "4e5d7b491746429700d70a8696822970feba6795b8e1ba9863a4d4e0c58b899b"
   },
   "naver": {
     "package": "com.nhn.android.nmap",
     "version_code": 61202003,
     "version_name": "6.12.2.4",
-    "bytes": 213035840,
-    "sha256": "2011cf17209f9d91c373abb9e5609dc1f186389ef887aa4da5e9e03a40eb7b57"
+    "bytes": 209560880,
+    "sha256": "e42a88bbfa333ebe49aacd517cd31940cbf0ffacb9cbe202f676cda18d4ce572"
   }
 }
