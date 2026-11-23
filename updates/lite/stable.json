@@ -5,11 +5,11 @@
   "available": true,
   "channel": "stable",
   "release": {
-    "versionCode": 40,
-    "versionName": "0.40",
-    "url": "https://github.com/go1sk1/CarrotCast/releases/download/lite-v0.40/CarrotCast-Lite-0.40.apk",
+    "versionCode": 41,
+    "versionName": "0.41",
+    "url": "https://github.com/go1sk1/CarrotCast/releases/download/lite-v0.41/CarrotCast-Lite-0.41.apk",
     "bytes": 2525189,
-    "sha256": "af98ceb24ab49af52a984657c120a174adc8d3d260e94ff9c49ec412501dd5af",
-    "notes": "차량 분할화면에서 왼쪽 내비바 전용 영역을 확보하고 앱 화면과 터치 영역을 분리했습니다."
+    "sha256": "157a4428f149a9b90400b8fca2d0cca17edd73e55e3cb487ae9e996d95053764",
+    "notes": "차량 분할화면에서 앱 하나를 닫아도 나머지 앱을 보는 동안 왼쪽 내비바를 유지합니다."
   }
 }
