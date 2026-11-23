@@ -5,11 +5,11 @@
   "available": true,
   "channel": "stable",
   "release": {
-    "versionCode": 48,
-    "versionName": "0.48",
-    "url": "https://github.com/go1sk1/CarrotCast/releases/download/lite-v0.48/CarrotCast-Lite-0.48.apk",
+    "versionCode": 49,
+    "versionName": "0.49",
+    "url": "https://github.com/go1sk1/CarrotCast/releases/download/lite-v0.49/CarrotCast-Lite-0.49.apk",
     "bytes": 2553950,
-    "sha256": "e8ebdc59fc3fe2549ef850585e3518f253fbff1d687122ec079a6d972f8ac057",
-    "notes": "ccNC의 126번 핸들 재생·음소거 동작을 추가했습니다. 폰 터치 서비스 상태와 내비 안내음 출력 진단을 개선했습니다."
+    "sha256": "22c8bca4397ac59cec179f09a1402d85023c0d95e489eae9e13b879b72841a0f",
+    "notes": "미러링 중 모니터 터치 서비스가 가로 방향을 요청해 티맵·유튜브처럼 자체 방향을 지정하는 앱에서도 가로를 유지합니다."
   }
 }
