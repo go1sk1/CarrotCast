@@ -5,11 +5,11 @@
   "available": true,
   "channel": "stable",
   "release": {
-    "versionCode": 39,
-    "versionName": "0.39",
-    "url": "https://github.com/go1sk1/CarrotCast/releases/download/lite-v0.39/CarrotCast-Lite-0.39.apk",
-    "bytes": 2521093,
-    "sha256": "be567a5bba2be2f876307c65ce595b9403573e35c9a062a54f074965eafb3f51",
-    "notes": "외부 내비 설치에서 받은 티맵·네이버지도의 차량 TBT 입력을 수정했습니다. 무선 미러링은 소리가 실제로 전송될 때만 폰 미디어를 음소거합니다."
+    "versionCode": 40,
+    "versionName": "0.40",
+    "url": "https://github.com/go1sk1/CarrotCast/releases/download/lite-v0.40/CarrotCast-Lite-0.40.apk",
+    "bytes": 2525189,
+    "sha256": "af98ceb24ab49af52a984657c120a174adc8d3d260e94ff9c49ec412501dd5af",
+    "notes": "차량 분할화면에서 왼쪽 내비바 전용 영역을 확보하고 앱 화면과 터치 영역을 분리했습니다."
   }
 }
