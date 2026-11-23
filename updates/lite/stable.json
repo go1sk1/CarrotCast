@@ -5,11 +5,11 @@
   "available": true,
   "channel": "stable",
   "release": {
-    "versionCode": 27,
-    "versionName": "0.27",
-    "url": "https://github.com/go1sk1/CarrotCast/releases/download/lite-v0.27/CarrotCast-Lite-0.27.apk",
-    "bytes": 9783118,
-    "sha256": "e1b077513448cd579942bf6048e3825c5203fa21e8de1c665ac464c20db13b21",
-    "notes": "순정폰용 차량 홈과 차량 TBT 내비연동을 통합하고 콤마패치 Lite를 내장했습니다. 차량 인증서와 내장 구성요소는 Lite 앱 업데이트로 갱신됩니다. 실제 S25+ 패치 APK 설치 및 ccNC TBT 표시는 추가 검증이 필요합니다. ROM 전용 시스템 분할화면과 콤마 ATC 네트워크 전송은 포함하지 않습니다."
+    "versionCode": 28,
+    "versionName": "0.28",
+    "url": "https://github.com/go1sk1/CarrotCast/releases/download/lite-v0.28/CarrotCast-Lite-0.28.apk",
+    "bytes": 9865294,
+    "sha256": "0aff1f7615b649ea1d2102f5031e46bf0f3305efbd602fa5d7dad4420730c1de",
+    "notes": "기존 CarrotCast 런처 디자인을 적용했습니다. 마지막으로 연 티맵 또는 네이버지도를 차량 TBT에 자동 연동합니다."
   }
 }
