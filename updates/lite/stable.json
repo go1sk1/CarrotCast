@@ -5,11 +5,11 @@
   "available": true,
   "channel": "stable",
   "release": {
-    "versionCode": 46,
-    "versionName": "0.46",
-    "url": "https://github.com/go1sk1/CarrotCast/releases/download/lite-v0.46/CarrotCast-Lite-0.46.apk",
-    "bytes": 2553861,
-    "sha256": "5153341c5178c47ffcc1f14825458a464e70159650c6a43baffc43d21c97f089",
-    "notes": "외부 내비를 누르면 GitHub APK를 다운로드/외부내비에 검증해 저장하고 Android 설치 화면을 자동으로 엽니다."
+    "versionCode": 47,
+    "versionName": "0.47",
+    "url": "https://github.com/go1sk1/CarrotCast/releases/download/lite-v0.47/CarrotCast-Lite-0.47.apk",
+    "bytes": 2553950,
+    "sha256": "49a087b3d5a771d2fbf9839778abfd9824fea6cf4b83453df04ba742b0646eb3",
+    "notes": "외부 내비 공식 배포본의 서명을 자동 확인합니다. 설치 화면에서 APK를 선택해 설치할 수 있습니다."
   }
 }
