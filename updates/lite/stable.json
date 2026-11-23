@@ -5,11 +5,11 @@
   "available": true,
   "channel": "stable",
   "release": {
-    "versionCode": 45,
-    "versionName": "0.45",
-    "url": "https://github.com/go1sk1/CarrotCast/releases/download/lite-v0.45/CarrotCast-Lite-0.45.apk",
-    "bytes": 2549765,
-    "sha256": "a266abc37815a31495d96238077d2c92e0bc95a2122b11a72ab37490f3cf1b02",
-    "notes": "콤마패치에서 내보낸 Lite용 티맵·네이버지도 APK 묶음을 설치하고 서명 지문을 등록할 수 있습니다."
+    "versionCode": 46,
+    "versionName": "0.46",
+    "url": "https://github.com/go1sk1/CarrotCast/releases/download/lite-v0.46/CarrotCast-Lite-0.46.apk",
+    "bytes": 2553861,
+    "sha256": "5153341c5178c47ffcc1f14825458a464e70159650c6a43baffc43d21c97f089",
+    "notes": "외부 내비를 누르면 GitHub APK를 다운로드/외부내비에 검증해 저장하고 Android 설치 화면을 자동으로 엽니다."
   }
 }
