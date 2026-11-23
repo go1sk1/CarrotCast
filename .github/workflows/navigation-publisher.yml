@@ -1,0 +1,39 @@
+name: Publish external navigation APK
+
+on:
+  repository_dispatch:
+    types: [carrotcast-navigation-publish]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: managed-navigation-publication
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: github.repository == 'go1sk1/CarrotCast' && github.event.sender.login == 'go1sk1'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - name: Install verification dependencies
+        run: |
+          python3 -m venv "$RUNNER_TEMP/navigation-venv"
+          "$RUNNER_TEMP/navigation-venv/bin/pip" install 'cryptography>=42,<52'
+          sdkmanager 'build-tools;36.1.0'
+      - name: Verify draft APK and publish
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          CATALOG_SIGNING_PEM: ${{ secrets.NAVIGATION_CATALOG_SIGNING_PEM }}
+          PUBLISH_APK_SIGNERS: ${{ vars.NAVIGATION_APK_SIGNERS }}
+          DRAFT_ID: ${{ github.event.client_payload.draft_id }}
+          ASSET_ID: ${{ github.event.client_payload.asset_id }}
+        run: |
+          export AAPT="$ANDROID_HOME/build-tools/36.1.0/aapt"
+          export APKSIGNER_JAR="$ANDROID_HOME/build-tools/36.1.0/lib/apksigner.jar"
+          export CATALOG_PUBLIC_KEY=stock-usb/app/src/main/assets/companions/navigation-public.der.b64
+          "$RUNNER_TEMP/navigation-venv/bin/python" stock-usb/server/navigation_publisher.py draft "$DRAFT_ID" "$ASSET_ID"
