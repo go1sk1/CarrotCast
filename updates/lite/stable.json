@@ -5,11 +5,11 @@
   "available": true,
   "channel": "stable",
   "release": {
-    "versionCode": 34,
-    "versionName": "0.34",
-    "url": "https://github.com/go1sk1/CarrotCast/releases/download/lite-v0.34/CarrotCast-Lite-0.34.apk",
+    "versionCode": 35,
+    "versionName": "0.35",
+    "url": "https://github.com/go1sk1/CarrotCast/releases/download/lite-v0.35/CarrotCast-Lite-0.35.apk",
     "bytes": 2512901,
-    "sha256": "80a027db43bf5a7fba5003e40e548bd982800eb2ff86319e8d0b335f9f156d32",
-    "notes": "외부 내비 설치를 Lite 설정과 같은 글래스 카드 화면으로 변경했습니다."
+    "sha256": "250e61b58020c89af5e4bd911457e326b8d032ddf0e32cde83ba494e8fb8543f",
+    "notes": "가로 미러링 화면 잘림과 터치 좌표를 수정했습니다. 내비바는 가로 런처 홈에만 표시됩니다. 앱 분할 실행 순서와 최근 앱 연결을 개선했습니다."
   }
 }
