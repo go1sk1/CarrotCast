@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "tag": "lite-v0.43",
+  "tmap": {
+    "package": "com.skt.tmap.ku",
+    "version_code": 4004,
+    "version_name": "11.8.4.4075",
+    "bytes": 91116614,
+    "sha256": "b487ebd0e9984af2d7a09938e2939cb79b524e5b38964fceea9e7bf4ef90b2bc"
+  },
+  "naver": {
+    "package": "com.nhn.android.nmap",
+    "version_code": 61202003,
+    "version_name": "6.12.2.4",
+    "bytes": 213035840,
+    "sha256": "2011cf17209f9d91c373abb9e5609dc1f186389ef887aa4da5e9e03a40eb7b57"
+  }
+}
