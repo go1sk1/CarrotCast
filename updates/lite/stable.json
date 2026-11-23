@@ -5,11 +5,11 @@
   "available": true,
   "channel": "stable",
   "release": {
-    "versionCode": 41,
-    "versionName": "0.41",
-    "url": "https://github.com/go1sk1/CarrotCast/releases/download/lite-v0.41/CarrotCast-Lite-0.41.apk",
-    "bytes": 2525189,
-    "sha256": "157a4428f149a9b90400b8fca2d0cca17edd73e55e3cb487ae9e996d95053764",
-    "notes": "차량 분할화면에서 앱 하나를 닫아도 나머지 앱을 보는 동안 왼쪽 내비바를 유지합니다."
+    "versionCode": 42,
+    "versionName": "0.42",
+    "url": "https://github.com/go1sk1/CarrotCast/releases/download/lite-v0.42/CarrotCast-Lite-0.42.apk",
+    "bytes": 2529285,
+    "sha256": "7c42c3f0613711e545bbb67d1f058f3ac95193f0a35cfee00bc1037b3eb692c9",
+    "notes": "내비바에 날짜를 추가하고 내비게이션 버튼 설정을 글래스 카드 디자인으로 바꿨습니다."
   }
 }
