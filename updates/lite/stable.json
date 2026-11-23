@@ -5,11 +5,11 @@
   "available": true,
   "channel": "stable",
   "release": {
-    "versionCode": 42,
-    "versionName": "0.42",
-    "url": "https://github.com/go1sk1/CarrotCast/releases/download/lite-v0.42/CarrotCast-Lite-0.42.apk",
-    "bytes": 2529285,
-    "sha256": "7c42c3f0613711e545bbb67d1f058f3ac95193f0a35cfee00bc1037b3eb692c9",
-    "notes": "내비바에 날짜를 추가하고 내비게이션 버튼 설정을 글래스 카드 디자인으로 바꿨습니다."
+    "versionCode": 44,
+    "versionName": "0.44",
+    "url": "https://github.com/go1sk1/CarrotCast/releases/download/lite-v0.44/CarrotCast-Lite-0.44.apk",
+    "bytes": 2541573,
+    "sha256": "eff8cb256032011ecc4b02380014d2da90ef39d3328417b0f6d8d7b1a78b4357",
+    "notes": "유선·무선 미러링의 핸들 버튼 등록을 추가했습니다. 수신된 버튼에 재생·일시정지, 차량 전송음 음소거, 곡 이동, 앱 실행을 지정할 수 있습니다."
   }
 }
