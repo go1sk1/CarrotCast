@@ -5,11 +5,11 @@
   "available": true,
   "channel": "stable",
   "release": {
-    "versionCode": 54,
-    "versionName": "0.54",
-    "url": "https://github.com/go1sk1/CarrotCast/releases/download/lite-v0.54/CarrotCast-Lite-0.54.apk",
+    "versionCode": 55,
+    "versionName": "0.55",
+    "url": "https://github.com/go1sk1/CarrotCast/releases/download/lite-v0.55/CarrotCast-Lite-0.55.apk",
     "bytes": 2574430,
-    "sha256": "ec424e818767240a7d2b833dc2be48024992bbc1b015747a75f154750237b25d",
-    "notes": "연결 종료 즉시 밝기 복원, 단계별 종료 예외 격리, USB 연결 정리의 UI 스레드 대기 방지. 밝기 복원 상태와 종료 지연 진단로그 추가."
+    "sha256": "75fcf08aaba426a0c6bbbaa704b1a533dcd414f7a28fb65727bc69aa04ca62b8",
+    "notes": "차량 화면 잘림·과도한 확대를 줄이도록 원본 화면 비율에 맞춰 캡처하고 차량 표시 영역에 한 번만 배치합니다. 화면 회전 시 캡처 크기 갱신, 터치 좌표 검증, 영상 설정·캡처 영역 진단로그를 추가했습니다. 여백 채움 옵션의 비율 변경을 표시합니다."
   }
 }
