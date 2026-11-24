@@ -5,11 +5,11 @@
   "available": true,
   "channel": "stable",
   "release": {
-    "versionCode": 53,
-    "versionName": "0.53",
-    "url": "https://github.com/go1sk1/CarrotCast/releases/download/lite-v0.53/CarrotCast-Lite-0.53.apk",
-    "bytes": 2566238,
-    "sha256": "0ba960ea6766946878d8af8d044ea14256a3cd5797fa7e78ff11cba44a8abf84",
-    "notes": "외부 내비 설치에서 공식 티맵과 T아이디 로그인용 메뉴를 제거했습니다."
+    "versionCode": 54,
+    "versionName": "0.54",
+    "url": "https://github.com/go1sk1/CarrotCast/releases/download/lite-v0.54/CarrotCast-Lite-0.54.apk",
+    "bytes": 2574430,
+    "sha256": "ec424e818767240a7d2b833dc2be48024992bbc1b015747a75f154750237b25d",
+    "notes": "연결 종료 즉시 밝기 복원, 단계별 종료 예외 격리, USB 연결 정리의 UI 스레드 대기 방지. 밝기 복원 상태와 종료 지연 진단로그 추가."
   }
 }
