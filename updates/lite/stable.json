@@ -5,11 +5,11 @@
   "available": true,
   "channel": "stable",
   "release": {
-    "versionCode": 55,
-    "versionName": "0.55",
-    "url": "https://github.com/go1sk1/CarrotCast/releases/download/lite-v0.55/CarrotCast-Lite-0.55.apk",
+    "versionCode": 56,
+    "versionName": "0.56",
+    "url": "https://github.com/go1sk1/CarrotCast/releases/download/lite-v0.56/CarrotCast-Lite-0.56.apk",
     "bytes": 2574430,
-    "sha256": "75fcf08aaba426a0c6bbbaa704b1a533dcd414f7a28fb65727bc69aa04ca62b8",
-    "notes": "차량 화면 잘림·과도한 확대를 줄이도록 원본 화면 비율에 맞춰 캡처하고 차량 표시 영역에 한 번만 배치합니다. 화면 회전 시 캡처 크기 갱신, 터치 좌표 검증, 영상 설정·캡처 영역 진단로그를 추가했습니다. 여백 채움 옵션의 비율 변경을 표시합니다."
+    "sha256": "b3be2f069185be5700dc983f4d85f6198de8bbd0d31af3421c23dd78b41248c8",
+    "notes": "무선동글이 보내는 무선 설정 버전 0.1을 정상 협상하도록 수정했습니다. 기존 1.x·4.x 및 ccNC 연결 방식과 0.55의 화면 비율 수정을 유지합니다. 연결 로그에 0.1 동글 호환 협상 단계를 표시합니다. 에뮬레이터 프로토콜·TLS 회귀 시험 완료, 실제 동글 연결 결과는 추가 확인이 필요합니다."
   }
 }
