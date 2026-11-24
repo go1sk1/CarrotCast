@@ -5,11 +5,11 @@
   "available": true,
   "channel": "stable",
   "release": {
-    "versionCode": 58,
-    "versionName": "0.58",
-    "url": "https://github.com/go1sk1/CarrotCast/releases/download/lite-v0.58/CarrotCast-Lite-0.58.apk",
-    "bytes": 2582622,
-    "sha256": "0230eba8368616292c34ba9494830ff288187de694b21b7490559a339734a74c",
-    "notes": "SmartBox 계열 무선동글의 Bluetooth 초기 연결 실패에 대응했습니다. 표준 연결 실패 시 서비스 정보를 갱신하고 호환 연결 및 표준 재시도를 수행합니다. 주변 기기 검색 간섭을 줄이고 시도별 방식·시간·결과를 진단 로그에 기록합니다. 기존 동글 0.1·ccNC 4.1 협상과 차량 인증을 유지했습니다. 서명 APK의 연결 복구·시간 초과·취소·TLS 회귀 시험 완료. 실제 SmartBox-7FE0 연결은 재시험이 필요합니다."
+    "versionCode": 59,
+    "versionName": "0.59",
+    "url": "https://github.com/go1sk1/CarrotCast/releases/download/lite-v0.59/CarrotCast-Lite-0.59.apk",
+    "bytes": 2586718,
+    "sha256": "36e7c3ee405b1479e872dddca6814f0675468f7396f806397a6d2809192be0fb",
+    "notes": "미러링 중 차량 화면에서 순정 내비바 영역을 제외하고 왼쪽 CarrotCast 내비바를 계속 표시합니다. 다른 앱·모든 앱·앱 선택 화면에서도 내비바 공간을 별도로 확보해 앱 화면을 가리지 않습니다. 화면 표시와 터치 좌표를 함께 보정하고, 홈 버튼은 런처 홈으로 복귀합니다. 차량 연결 대기 중에는 휴대폰 내비바를 유지하고 미러링 종료 시 원래 표시를 복원합니다. 내비바 위치별 영상·터치 및 앱 전환·홈 복귀·종료 복원 에뮬레이터 시험과 화면 비율 회귀 검사를 통과했습니다. 실제 차량 동작은 추가 확인이 필요합니다."
   }
 }
