@@ -24,6 +24,7 @@ TAG = "external-navigation"
 CATALOG = "updates/lite/navigation-managed.json"
 APPS = {"com.skt.tmap.ku": "tmap", "com.nhn.android.nmap": "naver"}
 RELAY = "bdfb9d47baf7c9e5d2ab3ed067b57bc9b2efbeccd67d6a88f9130374e83a585e"
+RELAYS = {RELAY, "67313a324db2de34f90c9f2bbbb5c9d39520d59ebe47368e5ffd69e2892a481b"}
 MAX_BYTES = 256 * 1024 * 1024
 PUBLISH_LOCK = threading.Lock()
 
@@ -67,10 +68,10 @@ def inspect(path, approved):
         info = json.loads(apk.read(marker))
         dex = info.get("payload_dex", "")
         if (info.get("package") != package or info.get("version_code") != int(code)
-                or info.get("relay_target") != "dev.carrotcast.stockusb.atc" or info.get("payload_sha256") != RELAY
+                or info.get("relay_target") != "dev.carrotcast.stockusb.atc" or info.get("payload_sha256") not in RELAYS
                 or not re.fullmatch(r"classes([2-9]|[1-9][0-9]+)\.dex", dex)
                 or apk.getinfo(dex).file_size > 4 * 1024 * 1024
-                or hashlib.sha256(apk.read(dex)).hexdigest() != RELAY):
+                or hashlib.sha256(apk.read(dex)).hexdigest() != info["payload_sha256"]):
             raise ValueError("Lite 통신 모듈을 검증하지 못했습니다.")
     return dict(package=package, version_code=int(code), version_name=version,
                 bytes=path.stat().st_size, sha256=sha(path), signer=signers[0])
