@@ -26,6 +26,7 @@ APPS = {"com.skt.tmap.ku": "tmap", "com.nhn.android.nmap": "naver"}
 RELAY = "bdfb9d47baf7c9e5d2ab3ed067b57bc9b2efbeccd67d6a88f9130374e83a585e"
 RELAYS = {RELAY, "67313a324db2de34f90c9f2bbbb5c9d39520d59ebe47368e5ffd69e2892a481b"}
 RELAYS.add("54c50ac7d7dd3f292eba0986e2d994ef80ee957945e03122ab8ed03e68321ce5")
+RELAYS.add("931efedfcf09b8dc84dc7918c1e796d37200991dab6eef1f6ded4e761960340b")
 MAX_BYTES = 256 * 1024 * 1024
 PUBLISH_LOCK = threading.Lock()
 
