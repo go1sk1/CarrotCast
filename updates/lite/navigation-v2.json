@@ -1,18 +1,18 @@
 {
   "schema": 1,
-  "tag": "lite-v0.77",
+  "tag": "lite-v0.78",
   "tmap": {
     "package": "com.skt.tmap.ku",
-    "version_code": 4005,
-    "version_name": "11.8.4.4075.1",
-    "bytes": 88110150,
-    "sha256": "8731ca4fe3612289d85c05a571dc7ce9fe3b3dfda96d5e9f8ed51d9c7964803f"
+    "version_code": 4006,
+    "version_name": "11.8.4.4075.2",
+    "bytes": 88160245,
+    "sha256": "d040e1d5a5a7126e34419da04579c64c17f9bf66126cda6df5f038b8c4546513"
   },
   "naver": {
     "package": "com.nhn.android.nmap",
-    "version_code": 61202004,
-    "version_name": "6.12.2.4.1",
-    "bytes": 210070336,
-    "sha256": "e1a2d5189c79166fb14a3a41e904c62c74405e6eb941b09db73832576cd1e76f"
+    "version_code": 61202005,
+    "version_name": "6.12.2.4.2",
+    "bytes": 210593863,
+    "sha256": "d6c45e8f31fda7964cad40abb6ae6795257c52b7eb7eb6daedc70541f9a9fb2b"
   }
 }
