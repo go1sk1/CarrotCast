@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "tag": "lite-v0.32",
+  "tag": "lite-v0.66",
   "package": "dev.carrotcast.c3xviewer.lite",
-  "version_code": 1,
-  "version_name": "0.1.0",
-  "bytes": 153459847,
-  "sha256": "2b351a29230b5033f82fe88fe0451158410e3016e26e0a033b56e3683af1688d"
+  "version_code": 2,
+  "version_name": "0.1.1",
+  "bytes": 130966093,
+  "sha256": "a9e04d9d8598557e4c4786fbee8975163a820b6a8b0e4ef4a6fdd6c4d3c10f48"
 }
