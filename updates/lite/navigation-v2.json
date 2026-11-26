@@ -3,10 +3,10 @@
   "tag": "lite-v0.78",
   "tmap": {
     "package": "com.skt.tmap.ku",
-    "version_code": 4006,
-    "version_name": "11.8.4.4075.2",
-    "bytes": 88160245,
-    "sha256": "d040e1d5a5a7126e34419da04579c64c17f9bf66126cda6df5f038b8c4546513"
+    "version_code": 4007,
+    "version_name": "11.8.4.4075.3",
+    "bytes": 88156152,
+    "sha256": "9e8cb3655704fe46956b1d413ee4ceca421a9fe4a6c340e21a4b7d6d76933459"
   },
   "naver": {
     "package": "com.nhn.android.nmap",
